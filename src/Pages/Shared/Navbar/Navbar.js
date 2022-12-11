@@ -11,7 +11,14 @@ const Navbar = () => {
         <a href="#my_project">My Projects</a>
       </li>
       <li className="italic font-serif">
+        <a href="#about">About</a>
+      </li>
+      <li className="italic font-serif">
         <a href="#contact_me">Contact Me</a>
+      </li>
+      <li className="italic font-serif">
+        {/* <a href="blog">My Blogs</a> */}
+        <Link to="/blog">My Blogs</Link>
       </li>
       <li className="italic font-serif">
         <a
@@ -58,6 +65,7 @@ const Navbar = () => {
           Shahanaz Ahmed Nishi
         </Link>
       </div>
+      {/* laptop device */}
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">{menuItems}</ul>
       </div>

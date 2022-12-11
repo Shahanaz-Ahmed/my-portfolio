@@ -1,7 +1,7 @@
 import React from "react";
 import reshop1 from "../../../assets/reshop1.PNG";
-import photoholic1 from "../../../assets/photoholic3.PNG";
-import self1 from "../../../assets/self2.PNG";
+import photoholic1 from "../../../assets/photoholic1.PNG";
+import self1 from "../../../assets/self1.PNG";
 
 const MyProjects = () => {
   return (
@@ -22,6 +22,7 @@ const MyProjects = () => {
                 backgroundImage: `url(${reshop1})`,
               }}
             >
+              <img src={reshop1} alt="" />
               <div className="absolute text-xl">
                 <i className="fa fa-heart text-white hover:text-red-light ml-4 mt-4 cursor-pointer"></i>
               </div>
@@ -49,17 +50,15 @@ const MyProjects = () => {
                   {/* <!-- Card description --> */}
                   <div className="w-full lg:w-3/5 lg:px-3">
                     <p className="text-md mt-4 lg:mt-0 text-justify md:text-left text-sm">
-                      ● ReShop is a React-responsive web application where
-                      people can also sell their used books and buy.
-                      <br />● Different authorization systems were implemented
-                      for the admin, seller, and buyer. Private Route were used
-                      to limit user access.
-                      <br />● Private Route has also been explored Via Admin,
-                      Buyer, Seller, and Private Route within the dashboard
-                      Admin can see All sellers & All Buyers. Admin can verify
-                      seller. Admin can delete buyers or Sellers. On the other
-                      hand, sellers can add products & Buyers can see their
-                      orders.
+                      ● ReShop is a e-commerce and resale platform founded in
+                      2002.On ReShop a user can both sell and the books in
+                      reasonable price. For the seller, the fees for using
+                      ReShop Local are the same as using regular ReShop, and you
+                      have the added convenience of not having to physically
+                      ship your items and the safety of not having to meet-up
+                      with a stranger. In order to sell on ReShop you have to go
+                      through some procedure and verified by Admin. On the other
+                      hand, Buyer can easily buy items from here
                       <br />● Technology Used: HTML5, CSS,daisyUI, ReactJS,
                       React Router, Node.js, Express.js, Firebase, MongoDB,
                       Vercel.
@@ -72,11 +71,14 @@ const MyProjects = () => {
                     <a
                       rel="noopener noreferrer"
                       target="_blank"
-                      href="https://reshop-569a0.web.app/"
+                      href="/project1"
                     >
                       <button className="glass hover:bg-grey-darker hover:text-white border border-solid border-grey w-1/3 lg:w-full py-2">
-                        Live Link
+                        Explore
                       </button>
+                      {/* <button className="glass hover:bg-grey-darker hover:text-white border border-solid border-grey w-1/3 lg:w-full py-2">
+                        Live Link
+                      </button> */}
                     </a>
                   </div>
                   {/* <!-- ./Call to action button --> */}
@@ -98,12 +100,8 @@ const MyProjects = () => {
           {/* <!-- Card wrapper --> */}
           <div className="shadow-lg flex flex-wrap w-full lg:w-4/5 mx-auto">
             {/* <!-- Card image --> */}
-            <div
-              className="bg-cover bg-bottom border w-full md:w-1/3 h-64 md:h-auto relative"
-              style={{
-                backgroundImage: `url(${photoholic1})`,
-              }}
-            >
+            <div className="bg-cover bg-bottom border w-full md:w-1/3 h-64 md:h-auto relative">
+              <img src={photoholic1} alt="" />
               <div className="absolute text-xl">
                 <i className="fa fa-heart text-white hover:text-red-light ml-4 mt-4 cursor-pointer"></i>
               </div>
@@ -131,14 +129,11 @@ const MyProjects = () => {
                   {/* <!-- Card description --> */}
                   <div className="w-full lg:w-3/5 lg:px-3">
                     <p className="text-md mt-4 lg:mt-0 text-justify md:text-left text-sm">
-                      ● PhotoHolic is a simple React-responsive web application
-                      with the goal of providing photography services of various
-                      types.
-                      <br />● Authentication, MongoDB crud operations,
-                      conditional rendering, dynamic routing, and Private Route
-                      have all been implemented. Unregistered users cannot add
-                      reviews to this project; however, authenticated users can
-                      add reviews
+                      ● PhotoHolic is an online service run by a single person,
+                      providing services and packages for a variety of events.
+                      Clients are able to select the event they are interested
+                      in and then leave feedback concerning the service they
+                      received.
                       <br />● Technology Used: HTML, CSS, tailwind, daisyUI,
                       ReactJs, Node.js, MongoDB, Firebase, GitHub, Vercel.
                     </p>
@@ -150,10 +145,10 @@ const MyProjects = () => {
                     <a
                       rel="noopener noreferrer"
                       target="_blank"
-                      href="https://photoholic-client.web.app/"
+                      href="/project2"
                     >
                       <button className="glass hover:bg-grey-darker hover:text-white border border-solid border-grey w-1/3 lg:w-full py-2">
-                        Live Link
+                        Explore
                       </button>
                     </a>
                   </div>
@@ -177,12 +172,8 @@ const MyProjects = () => {
           {/* <!-- Card wrapper --> */}
           <div className="shadow-lg flex flex-wrap w-full lg:w-4/5 mx-auto">
             {/* <!-- Card image --> */}
-            <div
-              className="bg-cover bg-bottom border w-full md:w-1/3 h-64 md:h-auto relative"
-              style={{
-                backgroundImage: `url(${self1})`,
-              }}
-            >
+            <div className="object-contain bg-cover bg-bottom border w-full md:w-1/3 h-64 md:h-auto relative">
+              <img src={self1} alt="" />
               <div className="absolute text-xl">
                 <i className="fa fa-heart text-white hover:text-red-light ml-4 mt-4 cursor-pointer"></i>
               </div>
@@ -210,12 +201,11 @@ const MyProjects = () => {
                   {/* <!-- Card description --> */}
                   <div className="w-full lg:w-3/5 lg:px-3">
                     <p className="text-md mt-4 lg:mt-0 text-justify md:text-left text-sm">
-                      ● Self-learning is a straightforward React web application
-                      for a learning platform that offers six different courses
-                      for enrollment.
-                      <br />● Course Categories pages are routed dynamically,
-                      pdf downloading feature is added & To obtain premium
-                      access, Private Route is used.
+                      ● E-learning has become much more accepted in recent times
+                      due to the pandemic situation. Self-learning is an
+                      educational website that provides a straightforward React
+                      web application for a learning platform that offers six
+                      courses for enrollment.
                       <br />● Technology Used: HTML, CSS, Bootstrap, ReactJs,
                       Node.js, Firebase, GitHub, Vercel.
                     </p>
@@ -227,10 +217,10 @@ const MyProjects = () => {
                     <a
                       rel="noopener noreferrer"
                       target="_blank"
-                      href="https://edutech-849e4.web.app/"
+                      href="/project3"
                     >
                       <button className="glass hover:bg-grey-darker hover:text-white border border-solid border-grey w-1/3 lg:w-full py-2">
-                        Live Link
+                        Explore
                       </button>
                     </a>
                   </div>

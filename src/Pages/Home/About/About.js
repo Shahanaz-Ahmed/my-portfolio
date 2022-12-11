@@ -3,7 +3,7 @@ import about from "../../../assets/about.jpg";
 
 const About = () => {
   return (
-    <div className="py-16 bg-slate-900 text-white">
+    <div id="about" className="py-16 bg-slate-900 text-white">
       <div className="hero ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left lg:w-1/2 lg:pl-12">
@@ -13,7 +13,10 @@ const About = () => {
               Computer Science and Engineering, possessing strong
               self-discipline and leadership traits. I am capable of adapting to
               any scenario and working efficiently in a high-pressure
-              atmosphere.
+              atmosphere. <br />I am committed to creating user-friendly
+              websites. I've used my skills on a variety of projects, including
+              landing pages, educational websites, e-commerce websites, and
+              websites that are being evaluated for potential improvements.
             </p>
           </div>
           <div className="card flex-shrink-0 w-full max-w-md shadow-2xl bg-base-100">
